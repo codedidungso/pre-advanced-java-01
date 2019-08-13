@@ -1,0 +1,59 @@
+
+public class Lesson01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// ... 
+		People thangCu = new People(); // constructor methods
+		System.out.println("Thang cu ten la: " + thangCu.name);	
+		thangCu.name = "Thang Cu"; // access methods and properties with .
+		System.out.println(Mathematics.PI);
+		System.out.println("Thang cu ten la: " + thangCu.khaiBaoHoTen());
+		People.race();
+	}
+}
+
+// OOP Object-Oriented Programming 
+// Class 
+
+class People{
+	// properties - variable name is a noun / expect boolean 
+	// methods 
+	People(){
+		System.out.println("Initialize new people");
+		name = "unnamed";
+		age = -1;
+		isMale = false;
+	}
+	String name;
+	int age;
+	boolean isMale;
+	
+	String khaiBaoHoTen() {
+		return name;
+	}
+	
+	void khoiTaoHoTen(String name) {
+		this.name= name;
+	}
+	
+	static String race() {
+		
+	}
+}
+
+// Object.xxx is a instance of Class.xxx
+
+class HocSinhLop12A{
+	String name;
+	int diemToan;
+	static String tenLop;
+	public HocSinhLop12A() {
+
+	}
+	
+}
+
+class Mathematics{
+	public static final double PI =  3.14;
+}

@@ -1,0 +1,92 @@
+import java.util.Scanner;
+
+public class Lesson01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// ... 
+		Person thangCu = new Person();
+		thangCu.setName("Le Duc Thang");
+		thangCu.setAge(21);
+		thangCu.setMale(false);
+		
+		System.out.println("Ten: " + thangCu.getName());
+		System.out.println("Tuoi: " + thangCu.getAge());
+		if(thangCu.isMale()) {
+			System.out.println("Duc");
+		} else {
+			System.out.println("Cai");
+		}
+		// input output a list of people 
+		Scanner sc = new Scanner(System.in);
+		
+		Person[] listPeople = new Person[10];
+		for (int i = 0; i < listPeople.length; i++) {
+			listPeople[i] = new Person();
+			System.out.println("Input name: ");
+			
+			listPeople[i].setName(sc.nextLine()); // inline 
+		}
+	}
+}
+
+// OOP Object-Oriented Programming 
+// Class 
+
+class Person{
+	// properties - variable name is a noun / expect boolean 
+	// methods 
+	Person(){
+		System.out.println("Initialize new people");
+		name = "unnamed";
+		age = -1;
+		isMale = false;
+	}
+	// get + noun
+	// set + noun 
+	
+	String name;
+	int age;
+	boolean isMale;
+	
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public boolean isMale() {
+		return isMale;
+	}
+	public void setMale(boolean isMale) {
+		this.isMale = isMale;
+	}
+	// getter
+	String getName() {
+		return name;
+	}
+	// setter 
+	void setName(String name) {
+		this.name= name;
+	}
+	
+	static String race() {
+		
+	}
+}
+
+// Object.xxx is a instance of Class.xxx
+
+class HocSinhLop12A{
+	String name;
+	int diemToan;
+	static String tenLop;
+	public HocSinhLop12A() {
+
+	}
+	
+}
+
+class Mathematics{
+	public static final double PI =  3.14;
+}

@@ -4,4 +4,22 @@
 <fullyQualifiedTypeName name="People"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="Person"/>
+<fullyQualifiedTypeName name="Student"/>
+<fullyQualifiedTypeName name="newpackage.PackageManager"/>
+<fullyQualifiedTypeName name="java.lang.Package"/>
+<fullyQualifiedTypeName name="Bike"/>
+<fullyQualifiedTypeName name="Vehicle"/>
+<fullyQualifiedTypeName name="Shape"/>
+<fullyQualifiedTypeName name="Car"/>
+<fullyQualifiedTypeName name="Animal"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="Square"/>
+<fullyQualifiedTypeName name="Rectangle"/>
+<fullyQualifiedTypeName name="javax.swing.JFileChooser"/>
+<fullyQualifiedTypeName name="java.awt.Dimension"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="javax.swing.JLabel"/>
+<fullyQualifiedTypeName name="javax.swing.JButton"/>
+<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
 </qualifiedTypeNameHistroy>

@@ -5,13 +5,21 @@
  */
 package hackathon;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author thiennd
  */
 public class Main {
-
+    public static final int THIEN = 18;
+    public static final boolean NAM = true;
+    public static final boolean NU = false;
+    
     public static void main(String[] args) {
+        boolean gender = NAM;
+        boolean gender2 = NU;
+        
         Customer thien = new Customer();
         thien.setName("Thien");
 
@@ -31,6 +39,9 @@ public class Main {
         thien.getAccountByNumber(1000000000123L).withdraw(1500);
 
         thien.listAllAcounts();
+        
+        Integer k = new Integer("123");
+        
     }
 
 }
